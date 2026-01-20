@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://ok0t1uqg80vq"]
+
+[ext_resource type="Script" uid="uid://bjn8jvy7s6yd5" path="res://scripts/interface/TurnLabel.gd" id="1_y3a6e"]
+
+[node name="Label" type="Label"]
+offset_right = 40.0
+offset_bottom = 23.0
+script = ExtResource("1_y3a6e")

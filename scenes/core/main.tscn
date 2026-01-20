@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bnxfwtriju5xj"]
+
+[ext_resource type="PackedScene" uid="uid://b01xpmtptv4l2" path="res://scenes/interface/main/next_turn.tscn" id="1_fgbdc"]
+[ext_resource type="PackedScene" uid="uid://ok0t1uqg80vq" path="res://scenes/interface/main/turn_label.tscn" id="2_i4cec"]
+
+[node name="Main" type="Node2D"]
+
+[node name="NextTurn" parent="." instance=ExtResource("1_fgbdc")]
+
+[node name="Label" parent="." instance=ExtResource("2_i4cec")]
+offset_left = 479.0
+offset_top = 318.0
+offset_right = 519.0
+offset_bottom = 341.0
+text = "e"

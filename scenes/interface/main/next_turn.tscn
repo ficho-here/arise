@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://b01xpmtptv4l2"]
+
+[ext_resource type="Script" uid="uid://cmcj3vmfmillu" path="res://scripts/interface/NextTurn.gd" id="1_ov7sf"]
+
+[node name="NextTurn" type="Button"]
+offset_left = 433.0
+offset_top = 297.0
+offset_right = 766.0
+offset_bottom = 411.0
+text = "Next Turn
+"
+script = ExtResource("1_ov7sf")
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]
